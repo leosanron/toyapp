@@ -1,6 +1,7 @@
 class User < ApplicationRecord
     has_many :microposts
-    validates FILL_IN, presence: true 
-    validates FILL_IN, presence: true
+   #alidates :content, length: { maximum: 140 },
+                        #presence: true
+    #validates :content,  presence: true
     
 end
